@@ -1,3 +1,4 @@
+/* Electricity Bill Calculator */
 import java.util.Scanner;
 
 
@@ -14,15 +15,15 @@ public class EBill{
 	    
 	    
 	    if(units>0 && units<=100){
-	        amount=units*5;
+	        amount=units*5;			// First 110 units
 	    }
 	    else if(units>0 && units<=200){
-	        amount=(units-100)*10 + 500;
+	        amount=(units-100)*10 + 500;	// Next 200 Units
 	    }
 	    else{
-	        amount=(units-200)*20 + 2000 + 500; 
+	        amount=(units-200)*20 + 2000 + 500;	//Remaining units 
 	    }
 	    
-	    System.out.println("Total Bill Amount = "+ amount);
+	    System.out.println("Total Bill Amount = "+ amount);		//Print total amount
     }
 }
