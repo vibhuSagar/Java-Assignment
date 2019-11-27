@@ -1,3 +1,5 @@
+/* Check Whether a number is prime or not */
+
 import java.util.Scanner;
 
 public class Prime {
@@ -9,7 +11,7 @@ public class Prime {
         
         boolean flag = false;
         
-        System.out.println("Enter a number.");
+        System.out.println("Enter a number.");      // input a number
         Scanner n= new Scanner(System.in);
         num=n.nextInt();
         
@@ -17,7 +19,7 @@ public class Prime {
         for(int i = 2; i <= num/2; i++)
         {
              
-            if(num % i == 0)
+            if(num % i == 0)        // condition to check a nonprime number
             {
                 flag = true;
                 break;
@@ -25,8 +27,8 @@ public class Prime {
         }
         
         if (!flag)
-            System.out.println(num + " is a prime number.");
+            System.out.println(num + " is a prime number.");        // print number is prime
         else
-            System.out.println(num + " is not a prime number.");
+            System.out.println(num + " is not a prime number.");        // print number is not prime
     }
 }
