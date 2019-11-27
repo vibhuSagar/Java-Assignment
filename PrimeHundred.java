@@ -1,3 +1,4 @@
+/* Print prime numbers from 1 to 100 */
 class Main
 {
 	public static void main(String arg[])	
@@ -8,10 +9,9 @@ class Main
 	
 	for(int j=2;j<=100;j++)
 	{
-	count=0;
-	for(i=1;i<=j;i++)
+	count=0;			
 	{
-	   if(j%i==0)
+	   if(j%i==0)			
 	   {
 	        count++;        
 	   }
