@@ -1,3 +1,5 @@
+/* Print "*" Pattern */
+
 public class PrintPattern
 { 
     
