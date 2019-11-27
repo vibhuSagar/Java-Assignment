@@ -15,7 +15,7 @@ public class EBill{
 	    
 	    
 	    if(units>0 && units<=100){
-	        amount=units*5;			// First 110 units
+	        amount=units*5;			// First 100 units
 	    }
 	    else if(units>0 && units<=200){
 	        amount=(units-100)*10 + 500;	// Next 200 Units
