@@ -6,12 +6,13 @@ public class EBill{
     
     public static void main(String[] args){
         
-	 int units;
+	int units;
 	double amount;
-	    System.out.println("Enter the number of units.");
+	   
+	System.out.println("Enter the number of units.");
 	    
-	    Scanner u = new Scanner(System.in);
-	    units=u.nextInt();
+	 Scanner u = new Scanner(System.in);
+	  units=u.nextInt();
 	    
 	    
 	    if(units>0 && units<=100){
